@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohit Deshmukh - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container navbar">
+            <a href="#" class="logo"><span>Portfolio</span></a>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container hero-content">
+            <p class="hero-greeting">Hello, I'm</p>
+            <h1 class="hero-name">Rohit <span>Deshmukh</span></h1>
+            <h2 class="hero-profession">Computer Science Student</h2>
+            <p class="hero-description">I am a passionate Computer Science student with a strong foundation in web development and programming. Eager to apply my knowledge and learn from real-world projects.</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="cta-btn primary-btn">View My Projects <i class="fas fa-arrow-right"></i></a>
+                <a href="#contact" class="cta-btn secondary-btn">Hire Me</a>
+            </div>
+        </div>
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Me</h2>
+                <p>Get to know me better</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-border">
+                        <img src="./WhatsApp Image 2025-02-25 at 10.52.21_19cb102f.jpg" alt="Rohit Deshmukh" class="profile-img" loading="lazy">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>I'm Rohit Deshmukh</h3>
+                    <p>I am a Computer Science student with a passion for web development and programming. Currently pursuing my degree, I've been actively learning and building projects to enhance my skills in frontend and backend technologies.</p>
+                    <p>My journey in programming started with Java and has expanded to include modern web technologies. I'm constantly learning and exploring new technologies to stay updated with industry trends.</p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>rohitdeshmukh649@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 80804 92329</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Pune, India</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Computer Science Student</span>
+                        </div>
+                    </div>
+                    <a href="./rohit deshmukh 1.pdf" class="download-cv" download="Rohit_Deshmukh_Resume.pdf">
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Projects</h2>
+                <p>Recent works</p>
+            </div>
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="app">App Development</button>
+                <button class="filter-btn" data-filter="other">Other</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="web">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1115&q=80" alt="E-commerce Dashboard" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">Angular</span>
+                            <span class="project-tag">Firebase</span>
+                            <span class="project-tag">SCSS</span>
+                        </div>
+                        <h3>E-commerce Dashboard</h3>
+                        <p>A comprehensive e-commerce admin dashboard with inventory management, order processing, and analytics features.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/rohitdeshmukh002" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="web">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1540350394557-8d14678e7f91?ixlib=rb-4.0.3&auto=format&fit=crop&w=1115&q=80" alt="Task Management System" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">MongoDB</span>
+                            <span class="project-tag">Express</span>
+                        </div>
+                        <h3>Task Management System</h3>
+                        <p>A feature-rich task management application with real-time updates, user authentication, and team collaboration tools.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/rohitdeshmukh002" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="app">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1074&q=80" alt="Social Media Dashboard" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">Angular</span>
+                            <span class="project-tag">Firebase</span>
+                            <span class="project-tag">Tailwind CSS</span>
+                        </div>
+                        <h3>Social Media Dashboard</h3>
+                        <p>A social media analytics dashboard that aggregates data from multiple platforms with customizable visualization tools.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/rohitdeshmukh002" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="other">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=1074&q=80" alt="Inventory Management API" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">Java</span>
+                            <span class="project-tag">Spring Boot</span>
+                            <span class="project-tag">REST API</span>
+                        </div>
+                        <h3>Inventory Management API</h3>
+                        <p>A robust RESTful API service for inventory management with authentication, rate limiting, and comprehensive documentation.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/rohitdeshmukh002" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Documentation
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="web">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" alt="Financial Analytics Platform" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">Angular</span>
+                            <span class="project-tag">Chart.js</span>
+                            <span class="project-tag">API Integration</span>
+                        </div>
+                        <h3>Financial Analytics Platform</h3>
+                        <p>A comprehensive financial analytics platform with interactive charts, budget tracking, and investment portfolio analysis.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/rohitdeshmukh002" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="app">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1592210454359-9043f067919b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" alt="Weather Forecast App" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">Firebase</span>
+                            <span class="project-tag">PWA</span>
+                        </div>
+                        <h3>Weather Forecast App</h3>
+                        <p>A progressive web application providing detailed weather forecasts with location-based services and offline capabilities.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/rohitdeshmukh002" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Skills</h2>
+                <p>What I can do</p>
+            </div>
+            <div class="skills-intro">
+                <p>As a student, I've been actively learning and practicing various technologies. Here's a showcase of my technical skills and learning progress.</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>HTML5</h3>
+                    <p>Proficient in writing semantic HTML5 code with accessibility best practices for creating structured web pages.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h3>CSS3</h3>
+                    <p>Skilled in creating responsive layouts, animations, and modern CSS features including Flexbox, Grid, and animations for visually appealing interfaces.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <p>Strong command of JavaScript ES6+ features for creating interactive and dynamic web applications with efficient code.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-angular"></i>
+                    </div>
+                    <h3>Angular</h3>
+                    <p>Experienced in building robust single-page applications with Angular framework, including state management and component architecture.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>MongoDB</h3>
+                    <p>Proficient in designing and working with NoSQL database structures, queries, and integrating MongoDB in web applications.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                    <h3>Firebase</h3>
+                    <p>Skilled in utilizing Firebase services including authentication, Firestore, real-time database, and hosting for web applications.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-git-alt"></i>
+                    </div>
+                    <h3>Git</h3>
+                    <p>Proficient in version control with Git, including branching strategies, merging, and collaborative development workflows.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-java"></i>
+                    </div>
+                    <h3>Java</h3>
+                    <p>Solid foundation in Java programming with experience in core concepts, object-oriented programming and advanced Java features.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Understanding of design principles and user experience to create visually appealing and intuitive interfaces.</p>
+                </div>
+
+                <!-- Continuing where the original HTML left off - completing the skills section and adding remaining sections -->
+
+                <!-- Skill card for API Development -->
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>API Development</h3>
+                    <p>Experience in designing and developing RESTful APIs using Node.js, Express, and Spring Boot with proper documentation.</p>
+                </div>
+                
+                <!-- Skill card for Responsive Design -->
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Responsive Design</h3>
+                    <p>Skilled in creating fully responsive websites that work seamlessly across all devices and screen sizes.</p>
+                </div>
+                
+                <!-- Skill card for Testing -->
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-vial"></i>
+                    </div>
+                    <h3>Testing</h3>
+                    <p>Knowledge of unit testing and integration testing methodologies using Jasmine, Karma, and JUnit.</p>
+                </div>
+            </div>
+            
+            <div class="skills-more">
+                <h3>Learning Progress</h3>
+                <div class="skills-list">
+                    <div class="skill-item">
+                        <span class="skill-name">HTML/CSS</span>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-progress="90"></div>
+                        </div>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">JavaScript</span>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-progress="85"></div>
+                        </div>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">React.js</span>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-progress="75"></div>
+                        </div>
+                        <span class="skill-percentage">75%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Node.js</span>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-progress="70"></div>
+                        </div>
+                        <span class="skill-percentage">70%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">MongoDB</span>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-progress="65"></div>
+                        </div>
+                        <span class="skill-percentage">65%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Git/GitHub</span>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-progress="80"></div>
+                        </div>
+                        <span class="skill-percentage">80%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="container">
+            <div class="section-title">
+                <h2>Experience & Projects</h2>
+                <p>My learning journey</p>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div class="timeline-icon">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                            <h3>Software Developer Intern</h3>
+                            <span class="company">Codemind Technology</span>
+                            <span class="period">2023 - 24</span>
+                        </div>
+                        <div class="timeline-body">
+                            <p>Completed a summer internship where I worked on frontend development and learned industry best practices.</p>
+                            <ul class="timeline-list">
+                                <li>Developed a web application for a client using Java and advanced java concepts</li>
+                                <li>Learned version control and team collaboration using Git</li>
+                                <li>Participated in daily stand-ups and code reviews</li> 
+                                <li>Learned new technologies and frameworks</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div class="timeline-icon">
+                                <i class="fas fa-project-diagram"></i>
+                            </div>
+                            <h3>Academic Projects</h3>
+                            <span class="company">University Projects</span>
+                            <span class="period">2024 - 2025</span>
+                        </div>
+                        <div class="timeline-body">
+                            <p>Developed various projects as part of my coursework and self-learning initiatives.</p>
+                            <ul class="timeline-list">
+                                <li>Built a full-stack e-commerce website using MERN stack</li>
+                                <li>Created a task management application with React and Firebase</li>
+                                <li>Developed a weather forecast app using JavaScript and APIs</li>
+                                <li>Implemented data structures and algorithms in Java</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div class="timeline-icon">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <h3>Angular Developer Intern</h3>
+                            <span class="company">Scalar TechHub</span>
+                            <span class="period">2025 - Present</span>
+                        </div>
+                        <div class="timeline-body">
+                            <p>Working as an Angular Developer Intern, focusing on building modern web applications and learning industry best practices.</p>
+                            <ul class="timeline-list">
+                                <li>Developing responsive single-page applications using Angular framework and  Firebase</li>
+                                <li>Implementing state management using NgRx and services</li>
+                                <li>Creating reusable components and implementing Angular Material UI</li>
+                                <li>Working with RESTful APIs and integrating backend services</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <div class="container">
+            <div class="section-title">
+                <h2>Education</h2>
+                <p>Academic background</p>
+            </div>
+            
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>Higher Secondary Certificate</h3>
+                        <p class="institution">D.P.M College, Kalamb</p>
+                        <p class="duration">2018 - 2020</p>
+                        <p class="description">Completed HSC with focus on Science stream, developing strong foundation in Mathematics and Computer Science fundamentals.</p>
+                    </div>
+                </div>
+                
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>Bachelor of Science in Computer Science</h3>
+                        <p class="institution">Karmyogi institute of technology,Pandharpur</p>
+                        <p class="duration">2020 - 2024</p>
+                        <p class="description">Studied core computer science subjects including data structures, algorithms, operating systems, and computer networks.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="certifications">
+                <h3>Certifications</h3>
+                <div class="certification-grid">
+                    <div class="certification-item">
+                        <div class="certification-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="certification-content">
+                            <h4>java Development</h4>
+                            <p class="issuer">Coursera</p>
+                            <p class="issued">2023</p>
+                        </div>
+                    </div>
+                    <div class="certification-item">
+                        <div class="certification-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="certification-content">
+                            <h4>Java FullStack Development</h4>
+                            <p class="issuer">JBK institute</p>
+                            <p class="issued">2024</p>
+                        </div>
+                    </div>
+                    
+                    <div class="certification-item">
+                        <div class="certification-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="certification-content">
+                            <h4>MERN Stack Developer</h4>
+                            <p class="issuer">100x dev</p>
+                            <p class="issued">2025</p>
+                        </div>
+                    </div>
+                    
+                    
+                    <!-- <div class="certification-item">
+                        <div class="certification-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="certification-content">
+                            <h4>Professional Scrum Master I</h4>
+                            <p class="issuer">Scrum.org</p>
+                            <p class="issued">2021</p>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Me</h2>
+                <p>Get in touch</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>Feel free to reach out to me for any project inquiries, collaborations, or just to say hello. I'm always open to discussing new opportunities and ideas.</p>
+                    
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Location</h4>
+                                <p>Pune, Maharashtra, India</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <p>rohitdeshmukh649@gmail.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Phone</h4>
+                                <p>+91 80804 92329</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Working Hours</h4>
+                                <p>Monday - Friday: 9AM - 6PM</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://github.com/rohitdeshmukh002" class="social-link" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/rohit-deshmukh-a86387242?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " class="social-link" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://www.instagram.com/_rohit_deshmukh002/?next=%2F" class="social-link" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="Enter subject" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="form-submit-btn">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#" class="logo">Rohit<span>Deshmukh</span></a>
+                    <p>Computer Science Student & Web Developer passionate about creating modern web applications. Currently pursuing my degree while building real-world projects.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Rohit Deshmukh. All Rights Reserved.</p>
+                <div class="footer-social">
+                    <a href="https://github.com/rohitdeshmukh002" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/rohit-deshmukh-a86387242?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/_rohit_deshmukh002/?next=%2F" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("YOUR_PUBLIC_KEY"); // Replace with your actual public key
+        })();
+    </script>
+    <script src="index.js"></script>
+</body>
+</html>
